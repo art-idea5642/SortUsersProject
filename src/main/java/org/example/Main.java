@@ -27,5 +27,4 @@ public class Main {
         return users.stream().distinct().sorted(Comparator.comparingInt(User::getAge).
                 reversed().thenComparing(User::getName)).limit(5).collect(Collectors.toList());
     }
-
 }
