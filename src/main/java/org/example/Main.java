@@ -20,9 +20,7 @@ public class Main {
                 new User("Пользователь 12", 30),
                 new User("Пользователь 1", 30)
         );
-
         System.out.println(sortUsers(users));
-
     }
 
     public static List <User> sortUsers (Collection <User> users) {
